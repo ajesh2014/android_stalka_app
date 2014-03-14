@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <TextView android:text="Trace:" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView1" android:layout_width="184dp" android:layout_height="39dp"></TextView>
+    <ToggleButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="ToggleButton" android:id="@+id/toggleButton" android:layout_below="@+id/textView1" android:layout_alignParentLeft="true" android:layout_marginLeft="14dp" android:layout_marginTop="29dp"></ToggleButton>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Service is off" android:id="@+id/service" android:layout_below="@+id/textView1" android:layout_alignLeft="@+id/toggleButton1" android:layout_alignRight="@+id/textView1"></TextView>
+      <ListView android:layout_width="fill_parent" android:id="@android:id/list" android:layout_below="@+id/toggleButton" android:layout_alignParentLeft="true" android:layout_marginTop="22dp" android:layout_height="390px"></ListView>
+    
+</RelativeLayout>

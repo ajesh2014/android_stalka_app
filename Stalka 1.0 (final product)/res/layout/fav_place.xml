@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+ <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/scrollView1" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+<LinearLayout
+ 
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" >
+  
+   <TextView android:text="Add Faviourate place" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"  ></TextView>
+    
+     <TextView android:text="Place Name:" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/PnameLable" android:layout_width="122dp" android:layout_height="wrap_content"  android:padding="10dp"></TextView>
+    
+     <TextView android:text="Details:" android:id="@+id/info" android:layout_width="234dp" android:layout_height="54dp"></TextView>
+     <EditText android:layout_height="wrap_content" android:id="@+id/placename" android:layout_width="match_parent">
+         <requestFocus></requestFocus>
+     </EditText>
+    
+  
+  
+  
+    
+    <Button android:id="@+id/submit" android:layout_height="wrap_content" android:text="Enter" android:layout_width="152dp" android:padding="10dp" ></Button>
+  
+   
+    
+</LinearLayout>
+ </ScrollView>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+ <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/scrollView1" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+<LinearLayout
+ 
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" >
+  
+   <TextView android:text="Stalka Register:" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"  ></TextView>
+    
+     <TextView android:text="User Name:" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/FnameLable" android:layout_width="122dp" android:layout_height="wrap_content"  android:padding="10dp"></TextView>
+    
+        
+    
+    <EditText android:id="@+id/username" android:layout_width="250dp" android:layout_height="wrap_content" android:textSize="12sp"></EditText>
+    
+    <TextView android:text="First Name:" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/FnameLable" android:layout_width="122dp" android:layout_height="wrap_content"  android:padding="10dp"></TextView>
+    <EditText android:id="@+id/fname" android:layout_width="285dp" android:layout_height="wrap_content"></EditText>
+    
+    
+    
+    <TextView android:text="Last Name:" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/LnameLable" android:layout_width="122dp" android:layout_height="wrap_content" android:padding="10dp"></TextView>
+    <EditText android:id="@+id/lname" android:layout_width="285dp" android:layout_height="wrap_content">
+        <requestFocus></requestFocus>
+    </EditText>
+   
+   
+   
+         <TextView android:text="User type :" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/Usertypelable" android:layout_width="122dp" android:layout_height="wrap_content" android:padding="10dp"></TextView>
+  
+      <Spinner android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/userType"></Spinner>
+   
+   
+   
+   
+   
+   
+   
+    <TextView android:text="Email :" android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/EmailLable" android:layout_width="122dp" android:layout_height="wrap_content" android:padding="10dp"></TextView>
+    <EditText android:inputType="textEmailAddress" android:id="@+id/email" android:layout_width="282dp" android:layout_height="wrap_content"></EditText>
+    
+        <TextView android:text="Password :" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/passwordlable" android:layout_width="122dp" android:layout_height="wrap_content" android:padding="10dp"></TextView>
+    <EditText android:inputType="textPassword" android:id="@+id/password" android:layout_width="282dp" android:layout_height="wrap_content"></EditText>
+    
+       <TextView android:text="Re-Password :" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/repasswordlable" android:layout_width="122dp" android:layout_height="wrap_content" android:padding="10dp"></TextView>
+    <EditText android:inputType="textPassword" android:id="@+id/repassword" android:layout_width="282dp" android:layout_height="wrap_content"></EditText>
+    
+  
+  
+  
+    
+    <Button android:id="@+id/submit" android:layout_height="wrap_content" android:text="Submit" android:layout_width="152dp" android:padding="10dp" ></Button>
+  
+   
+    
+</LinearLayout>
+ </ScrollView>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.tracker"
+      android:versionCode="1"
+      android:versionName="1.0">
+      
+      <uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-sdk android:minSdkVersion="8" />
+    
+    
+
+
+
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".SplashScreen"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+ <activity android:name=".TrackerActivity"
+                  android:label="@string/app_name">
+                   </activity>
+
+  
+
+   <activity android:name=".Mylocation_func.Mylocation"
+                  android:label="@string/app_name">
+                   </activity>
+                   
+                   
+                    <activity android:name=".Login_func.Newuser"
+                  android:label="@string/app_name">
+                   </activity>
+                   
+                   
+                    <activity android:name=".Login_func.Login"
+                  android:label="@string/app_name">
+                   </activity>
+                   
+                   
+                    <activity android:name=".Myfriends"
+                  android:label="@string/app_name">
+                   </activity>
+                   
+                      <activity android:name=".Find_freinds_func.FriendsList"
+                  android:label="@string/app_name">
+                   </activity>
+                   
+                      <activity android:name=".Find_freinds_func.Friends_menu"
+                  android:label="@string/app_name">
+                   </activity>
+                   
+                   <activity android:name=".Find_freinds_func.Friend_Requests"
+                  android:label="@string/app_name">
+                   </activity>
+                   
+                   
+                    <activity android:name=".Find_freinds_func.GetFriendsLocation"
+                  android:label="@string/app_name">
+                   </activity>
+                   
+    
+                   
+                       
+                    <activity android:name=".Itemadpt"
+                  android:label="@string/app_name">
+                   </activity>
+                   
+                   
+                      
+                    <activity android:name=".Direction_func.Directuser"
+                  android:label="@string/app_name">
+                   </activity>
+                   
+                   
+                      <activity android:name=".Search_func.peopleList"
+                  android:label="@string/app_name">
+                   </activity>
+                   
+                    <activity android:name=".Search_func.GetPeopleLocation"
+                  android:label="@string/app_name">
+                   </activity>
+                   
+                   
+                   
+                   
+                   <uses-library android:name="com.google.android.maps" />
+                   
+  <service
+   android:enabled="true"
+   android:name=".LocUpdService"/>
+  <activity android:name="com.AddFav_func.FavPlace"></activity>
+  
+   <activity android:name="com.AddFav_func.Veiw_fav_place"></activity>
+   <activity android:name="com.AddFav_func.FavPlace_edit"></activity>
+   <activity android:name=".Message_func.Messages_menu"></activity>
+   <activity android:name=".AddFav_func.Veiw_fav_place"></activity>
+   <activity android:name=".AddFav_func.FavPlace"></activity>
+   <activity android:name=".AddFav_func.FavPlace_edit">
+   </activity>
+   <activity android:name=".Message_func.View_message"></activity>
+   <activity android:name=".AddFav_func.FavPlace_menu"></activity>
+   <activity android:name=".AddFav_func.Favlocation"></activity>
+   <activity android:name=".AddFav_func.DirectuserToFav"></activity>
+   <activity android:name=".Search_func.search_menu"></activity>
+   <activity android:name=".Search_func.UserType_menu"></activity>
+   <activity android:name=".Search_func.search_usertype"></activity>
+   <activity android:name=".Search_func.UserSearch"></activity>
+   <activity android:name=".Message_func.Friends_message"></activity>
+   <activity android:name=".Message_func.Sent_Messages_menu"></activity>
+   <activity android:name=".Message_func.Messaging_menu"></activity>
+   <service android:name=".Trace_func.TraceService"></service>
+   <activity android:name=".Trace_func.TrailTrack"></activity>
+  
+
+    </application>
+</manifest>

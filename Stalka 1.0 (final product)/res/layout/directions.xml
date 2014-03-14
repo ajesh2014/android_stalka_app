@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" android:gravity="top" xmlns:android="http://schemas.android.com/apk/res/android">
+    
+        <com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:clickable="true"
+        android:apiKey="0o96y8lZ2SqU2EZ4n0LRubEFHS5_5leCprJnWBg"
+    android:layout_height="400dp"/>
+        <SlidingDrawer android:content="@+id/content" android:layout_height="300dp" android:id="@+id/slidingDrawer1" android:layout_width="match_parent" android:handle="@+id/handle" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true"   >
+            <Button android:layout_width="wrap_content" android:id="@+id/handle" android:layout_height="wrap_content" android:text="Pull"></Button>
+            <LinearLayout android:layout_width="match_parent" android:id="@+id/content" android:layout_height="300dp" android:background="#000" >
+            
+            
+             <ListView android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" android:id="@+id/listview_"
+                                android:divider="@android:color/transparent" android:dividerHeight="10.0sp" />
+            
+            
+            </LinearLayout>
+        </SlidingDrawer>
+    
+  
+
+   
+   
+</RelativeLayout>
+

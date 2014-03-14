@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:layout_height="wrap_content" android:text="Main Menu:" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView1" android:layout_width="212dp"></TextView>
+    <Button android:text="My location" android:id="@+id/the_button" android:onClick="MyLocation" android:layout_height="wrap_content" android:paddingBottom="20px" android:layout_width="139dp" android:layout_margin="20px"></Button>
+    <Button android:text="Friends" android:id="@+id/the_button" android:onClick="MyFriendLocation" android:layout_height="wrap_content" android:layout_width="145dp" android:layout_margin="20px" ></Button>
+    
+    
+     <Button
+    android:id="@+id/the_button"
+    android:layout_height="wrap_content"
+    android:text="Faviourate Places"
+    android:onClick="favplaces" android:layout_margin="20px" android:layout_width="146dp"/>
+    
+      <Button
+    android:id="@+id/the_button"
+    android:layout_height="wrap_content"
+    android:text="Search people"
+    android:onClick="SearchPeople" android:layout_margin="20px" android:layout_width="145dp"/>
+    
+         <Button
+    android:id="@+id/the_button"
+    android:layout_height="wrap_content"
+    android:text="Messaging"
+    android:onClick="Messaging" android:layout_margin="20px" android:layout_width="144dp"/>
+    
+</LinearLayout>
